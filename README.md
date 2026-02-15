@@ -1,24 +1,23 @@
 # Prévision horaire de la demande Capital Bikeshare (2024-2025)
 ## Instructions pour exécuter le projet
-1. Installer les dépendances
-Installez les packages listés dans `requirements.txt` :
+1. Installez les packages listés dans `requirements.txt` :
 
 ```bash
 pip install -r requirements.txt
 ```
-2. Télécharger les données
-Téléchargez tous les fichiers ZIP originaux depuis ce lien Google Drive :
+2. Téléchargez tous les fichiers ZIP originaux depuis ce lien Google Drive :
 https://drive.google.com/drive/folders/1wvS9tY4KiMKVPbYLi3ylZWoOo1IMFRNC?usp=drive_link
-
 Placez tous les fichiers ZIP dans le même dossier que le notebook (Bike_Sharing_Project/).
 
-3. Lancer le notebook
-Depuis le dossier Bike_Sharing_Project/, lancez :
+3. Depuis le dossier Bike_Sharing_Project/, lancez :
 
+```bash
 jupyter notebook
+```
 Copiez l’URL affichée dans le terminal et collez-la dans un navigateur web.
 
-Ouvrez Bike_sharing.ipynb et exécutez toutes les cellules.
+4. Ouvrez Bike_sharing.ipynb et exécutez toutes les cellules.
+
 Le code :
 - Dézippera automatiquement les fichiers ZIP
 - Préparera le dataset complet
