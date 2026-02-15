@@ -5,24 +5,23 @@ Installez les packages listés dans `requirements.txt` :
 
 ```bash
 pip install -r requirements.txt
-
 2. Télécharger les données
-Télécharger tous les fichiers ZIP originaux depuis ce lien Google Drive :
-https://drive.google.com/drive/folders/1wvS9tY4KiMKVPbYLi3ylZWoOo1IMFRNC?usp=drive_link 
+Téléchargez tous les fichiers ZIP originaux depuis ce lien Google Drive :
+https://drive.google.com/drive/folders/1wvS9tY4KiMKVPbYLi3ylZWoOo1IMFRNC?usp=drive_link
 
-Placer tous les fichiers ZIP dans le même dossier que le notebook (Bike_Sharing_Project/).
+Placez tous les fichiers ZIP dans le même dossier que le notebook (Bike_Sharing_Project/).
 
 3. Lancer le notebook
-Depuis le dossier Bike_Sharing_Project/, lancer :
+Depuis le dossier Bike_Sharing_Project/, lancez :
 
 jupyter notebook
+Copiez l’URL affichée dans le terminal et collez-la dans un navigateur web.
 
-Copier l’URL affichée dans le terminal et la coller dans un navigateur web
-
-Ouvrir Bike_sharing.ipynb et exécuter toutes les cellules
-
-Le code dézippera automatiquement les fichiers ZIP et préparera le dataset complet. Les fichiers déjà extraits ne seront pas écrasés.
-
+Ouvrez Bike_sharing.ipynb et exécutez toutes les cellules.
+Le code :
+- Dézippera automatiquement les fichiers ZIP
+- Préparera le dataset complet
+- N’écrasera pas les fichiers déjà extraits
 ## Introduction
 Ce projet vise à prédire le nombre de trajets horaires du réseau Capital Bikeshare à Washington D.C. sur 2025, en se basant sur les données historiques 2024-2025. L'objectif est de fournir une baseline robuste pour planifier la flotte et les ressources.
 
