@@ -5,6 +5,7 @@ Installez les packages listés dans `requirements.txt` :
 
 ```bash
 pip install -r requirements.txt
+```
 2. Télécharger les données
 Téléchargez tous les fichiers ZIP originaux depuis ce lien Google Drive :
 https://drive.google.com/drive/folders/1wvS9tY4KiMKVPbYLi3ylZWoOo1IMFRNC?usp=drive_link
